@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ո՞վ է ուզում դառնալ Միլիոնատեր</title>
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2 format('woff2')"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <section class="game">
         <div class="container">
@@ -16,31 +20,198 @@
                 <div class="rules-content">
                     "Ո՞վ է ուզում դառնալ Միլիոնատեր" <br><br>
                     ✔️ Խաղը բաղկացած է 15 հարցից։<br>
-          ✔️ Յուրաքանչյուր ճիշտ պատասխանի դեպքում խաղացողն անցնում է հաջորդ հարցին։<br>
-          ✔️ Խաղում կա 2 անձեռնմխելի գումար 5-րդ և 10-րդ հարցերից հետո։<br>
-          ✔️ Խաղացողը կարող է օգտվել՝ <em>«50/50»</em>, <em>«Դահլիճի օգնություն»</em>, <em>«Զանգ ընկերոջը»</em>, <em>«Հարցը փոխելու»</em> և <em>«ԱԲ-ի օգնություն»</em> հնարավություններից։<br>
-          ✔️ Սխալ պատասխանի դեպքում խաղացողը ստանում է վերջին շահած անձեռնմխելի գումարը։<br>
-          ✔️ Խաղացողը կարող է ցանկացած պահի դադարեցնել խաղը  և վերցնել շահած գումարը։<br><br>
-          ՀԱՋՈՂՈՒԹՅՈՒՆ ՔԵԶ՝ ԱՊԱԳԱ ՄԻԼԻՈՆԱՏԵՐ։ 💰
+                    ✔️ Յուրաքանչյուր ճիշտ պատասխանի դեպքում խաղացողն անցնում է հաջորդ հարցին։<br>
+                    ✔️ Խաղում կա 2 անձեռնմխելի գումար 5-րդ և 10-րդ հարցերից հետո։<br>
+                    ✔️ Խաղացողը կարող է օգտվել՝ <em>«50/50»</em>, <em>«Դահլիճի օգնություն»</em>, <em>«Զանգ
+                        ընկերոջը»</em>, <em>«Հարցը փոխելու»</em> և <em>«ԱԲ-ի օգնություն»</em> հնարավություններից։<br>
+                    ✔️ Սխալ պատասխանի դեպքում խաղացողը ստանում է վերջին շահած անձեռնմխելի գումարը։<br>
+                    ✔️ Խաղացողը կարող է ցանկացած պահի դադարեցնել խաղը և վերցնել շահած գումարը։<br><br>
+                    ՀԱՋՈՂՈՒԹՅՈՒՆ ՔԵԶ՝ ԱՊԱԳԱ ՄԻԼԻՈՆԱՏԵՐ։ 💰
                 </div>
             </div>
-            <button>Կանոներ</button>
+            <button class="information" id="showRules">Կանոներ</button>
             <div class="game-block">
                 <h1>Ո՞վ է ուզում դառնալ Միլիոնատեր</h1>
                 <div class="game-wrap">
                     <div class="block-questions">
-                        <div class="question question1 question-active">
-                            <h2>Նվագախմբի տարատեսակ</h2>
-                            <div class="block-answers">Ա. Դողային</div>
-                            <div class="block-answers">Բ. Կողային</div>
-                            <div class="block-answers">Գ. Փողային</div>
-                            <div class="block-answers">Դ. Փողասերային</div>
+                        <div class="question question_1 question-active">
+                            <h2>Ո՞րն է Արեգակնային համակարգի ամենամեծ մոլորակը։</h2>
+                            <div class="block-answers">Ա. Երկիր</div>
+                            <div class="block-answers">Բ. Մարս</div>
+                            <div class="block-answers">Գ. Յուպիտեր</div>
+                            <div class="block-answers">Դ. Վեներա</div>
                         </div>
+                        <div class="question question_2">
+                            <h2>Ո՞ր կենդանուն են հաճախ անվանում «ջունգլիների արքա»։</h2>
+                            <div class="block-answers">Ա. Վագր</div>
+                            <div class="block-answers">Բ. Առյուծ</div>
+                            <div class="block-answers">Գ. Փիղ</div>
+                            <div class="block-answers">Դ. Հովազ</div>
+                        </div>
+                        <div class="question question_3">
+                            <h2>Քանի՞ մայրցամաք կա Երկրի վրա։</h2>
+                            <div class="block-answers">Ա. 5</div>
+                            <div class="block-answers">Բ. 6</div>
+                            <div class="block-answers">Գ. 7</div>
+                            <div class="block-answers">Դ. 8</div>
+                        </div>
+                        <div class="question question_4">
+                            <h2>Ո՞րն է աշխարհի ամենամեծ օվկիանոսը։</h2>
+                            <div class="block-answers">Ա. Ատլանտյան</div>
+                            <div class="block-answers">Բ. Հնդկական</div>
+                            <div class="block-answers">Գ. Հյուսիսային Սառուցյալ</div>
+                            <div class="block-answers">Դ. Խաղաղ</div>
+                        </div>
+                        <div class="question question_5">
+                            <h2>Ո՞ր քիմիական տարրի նշանն է Au։</h2>
+                            <div class="block-answers">Ա. Արծաթ</div>
+                            <div class="block-answers">Բ. Ոսկի</div>
+                            <div class="block-answers">Գ. Ալյումին</div>
+                            <div class="block-answers">Դ. Արգոն</div>
+                        </div>
+                        <div class="question question_6">
+                            <h2>Ո՞ր երկրում են գտնվում Գիզայի բուրգերը։</h2>
+                            <div class="block-answers">Ա. Մեքսիկա</div>
+                            <div class="block-answers">Բ. Հունաստան</div>
+                            <div class="block-answers">Գ. Եգիպտոս</div>
+                            <div class="block-answers">Դ. Պերու</div>
+                        </div>
+                        <div class="question question_7">
+                            <h2>Ո՞վ է գրել «Ռոմեո և Ջուլիետ» ստեղծագործությունը։</h2>
+                            <div class="block-answers">Ա. Չարլզ Դիքենս</div>
+                            <div class="block-answers">Բ. Ուիլյամ Շեքսպիր</div>
+                            <div class="block-answers">Գ. Ջեյն Օսթին</div>
+                            <div class="block-answers">Դ. Մարկ Տվեն</div>
+                        </div>
+                        <div class="question question_8">
+                            <h2>Ո՞ր գազն են բույսերը հիմնականում կլանում մթնոլորտից։</h2>
+                            <div class="block-answers">Ա. Թթվածին</div>
+                            <div class="block-answers">Բ. Ազոտ</div>
+                            <div class="block-answers">Գ. Ածխաթթու գազ</div>
+                            <div class="block-answers">Դ. Ջրածին</div>
+                        </div>
+                        <div class="question question_9">
+                            <h2>Ո՞րն է Ավստրալիայի մայրաքաղաքը։</h2>
+                            <div class="block-answers">Ա. Սիդնեյ</div>
+                            <div class="block-answers">Բ. Մելբուռն</div>
+                            <div class="block-answers">Գ. Կանբեռա</div>
+                            <div class="block-answers">Դ. Պերթ</div>
+                        </div>
+                        <div class="question question_10">
+                            <h2>Ո՞ր երաժշտական գործիքն ունի 88 ստեղն։</h2>
+                            <div class="block-answers">Ա. Ջութակ</div>
+                            <div class="block-answers">Բ. Կիթառ</div>
+                            <div class="block-answers">Գ. Դաշնամուր</div>
+                            <div class="block-answers">Դ. Ֆլեյտա</div>
+                        </div>
+                        <div class="question question_11">
+                            <h2>Ո՞ր գիտնականն է մշակել հարաբերականության ընդհանուր տեսությունը։</h2>
+                            <div class="block-answers">Ա. Իսահակ Նյուտոն</div>
+                            <div class="block-answers">Բ. Ալբերտ Այնշտայն</div>
+                            <div class="block-answers">Գ. Գալիլեո Գալիլեյ</div>
+                            <div class="block-answers">Դ. Նիկոլա Տեսլա</div>
+                        </div>
+                        <div class="question question_12">
+                            <h2>Ո՞րն է ամենափոքր պարզ թիվը։</h2>
+                            <div class="block-answers">Ա. 0</div>
+                            <div class="block-answers">Բ. 1</div>
+                            <div class="block-answers">Գ. 2</div>
+                            <div class="block-answers">Դ. 3</div>
+                        </div>
+                        <div class="question question_13">
+                            <h2>Ո՞ր երկիրն ունի ամենաշատ պաշտոնական ժամային գոտիները։</h2>
+                            <div class="block-answers">Ա. Ռուսաստան</div>
+                            <div class="block-answers">Բ. ԱՄՆ</div>
+                            <div class="block-answers">Գ. Ֆրանսիա</div>
+                            <div class="block-answers">Դ. Կանադա</div>
+                        </div>
+                        <div class="question question_14">
+                            <h2>Արյան ո՞ր խումբն է համարվում կարմիր արյան բջիջների համընդհանուր դոնոր։</h2>
+                            <div class="block-answers">Ա. AB+</div>
+                            <div class="block-answers">Բ. O−</div>
+                            <div class="block-answers">Գ. O+</div>
+                            <div class="block-answers">Դ. A−</div>
+                        </div>
+                        <div class="question question_15">
+                            <h2>Ո՞վ է ապացուցել Ֆերմայի վերջին թեորեմը։</h2>
+                            <div class="block-answers">Ա. Էնդրյու Ուայլս</div>
+                            <div class="block-answers">Բ. Լեոնարդ Էյլեր</div>
+                            <div class="block-answers">Գ. Կարլ Ֆրիդրիխ Գաուս</div>
+                            <div class="block-answers">Դ. Ալան Թյուրինգ</div>
+                        </div>
+
+                        <div class="question question_extra" id="extra">
+                            <h2>Ո՞ր մոլորակն է հայտնի որպես «Կարմիր մոլորակ»։</h2>
+                            <div class="block-answers">Ա. Վեներա</div>
+                            <div class="block-answers">Բ. Մարս</div>
+                            <div class="block-answers">Գ. Յուպիտեր </div>
+                            <div class="block-answers">Դ. Սատուրն</div>
+                        </div>
+
+                        <button class="end-btn" id="end">Ավարտել խաղը</button>
+                    </div>
+                    <div class="block-win">
+                        <div class="hints">
+                            <div class="hints-help fifty-fifty">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                50/50
+                            </div>
+                            <div class="hints-help hall-help">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="hints-help call-friend">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="hints-help changed-question" id="hintBox">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                <i class="fas fa-retweet"></i>
+                            </div>
+                            <div class="hints-help ai-help">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                AI
+                            </div>
+
+
+
+                        </div>
+                        <div class="wins">
+                            <div class="wins-block"><span>15.</span> 5. 000 000</div>
+                            <div class="wins-block"><span>14.</span> 3. 000 000</div>
+                            <div class="wins-block"><span>13.</span> 2. 000 000</div>
+                            <div class="wins-block"><span>12.</span> 1. 000 000</div>
+                            <div class="wins-block"><span>11.</span> 500. 000</div>
+                            <div class="wins-block"><span>10.</span> 250.000</div>
+                            <div class="wins-block"><span>9.</span> 125. 000</div>
+                            <div class="wins-block"><span>8.</span> 64. 000</div>
+                            <div class="wins-block"><span>7.</span> 32. 000</div>
+                            <div class="wins-block"><span>6.</span> 16. 000</div>
+                            <div class="wins-block"><span>5.</span> 8000</div>
+                            <div class="wins-block"><span>4.</span> 4000</div>
+                            <div class="wins-block"><span>3.</span> 2000</div>
+                            <div class="wins-block"><span>2.</span> 1000</div>
+                            <div class="wins-block"><span>1.</span> 500</div>
+                        </div>
+                        <div class="ai-explain-block" id="aiExplainBlock">
+                            <span class="ai-explain-close" id="aiExplainClose">&times;</span>
+                            <h3>ԱԲ - ի պատասխան</h3>
+                            <p class="ai-explain-text" id="aiExplainText"></p>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
 
         </div>
     </section>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
